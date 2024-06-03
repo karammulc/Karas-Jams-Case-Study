@@ -13,8 +13,7 @@ Objectives:
 I hope this offers the opportunity for you to get to know me better aswell. Lets go!
 
 
-#### Tools Used: Google Sheets, BigQuery, R Posit Cloud
-
+#### Tools Used: 
 
 ## Table of Contents
 - [Introduction](#introduction)

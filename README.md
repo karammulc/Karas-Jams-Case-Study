@@ -24,6 +24,10 @@ I hope this offers the opportunity for you to get to know me better aswell. Lets
 - [Tables](#tables)
 - [Visualizations](#visualizations)
 
+#### Data was provided directly from Spotify as 4 JSON files. 
+
+
+
 ## Documentation
 
 

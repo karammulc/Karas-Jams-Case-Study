@@ -8,9 +8,9 @@ Instead of adressing a business problem; this project will be an exploration of 
 Objectives: 
 - Explore the patterns within my relationship to music
 - Attempt new techniques
-- Get to know myself better
+- offer the opportunity for you to get to know me better
 
-I hope this offers the opportunity for you to get to know me better aswell. Lets go!
+Lets go!
 
 
 #### Tools Used: 

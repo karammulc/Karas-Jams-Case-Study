@@ -34,6 +34,28 @@ with open('StreamingHistory_music.csv', 'w', newline='') as file:
         writer.writerow(row.values())
 ```
 
+#### Duplicate check
+
+```SQL
+SELECT
+    endtime,
+    artistName,
+    trackName,
+    msplayed,
+    COUNT(*) AS count
+FROM
+    `bamboo-life-418613.karasdata.jams`
+GROUP BY
+    endtime,
+    artistName,
+    trackName
+    msplayed
+HAVING
+    COUNT(*) > 1;
+```
+
+#### No Duplicates found
+
 #### Checking for Null Values
 
 ```SQL
@@ -45,22 +67,8 @@ WHERE endtime IS NULL
    OR msplayed IS NULL
    OR endTime IS NULL;
 ```
-#### Checking for duplicates
-```SQL
-SELECT
-    endtime,
-    artistName,
-    trackName,
-    COUNT(*) AS count
-FROM
-    `bamboo-life-418613.karasdata.jams`
-GROUP BY
-    endtime,
-    artistName,
-    trackName
-HAVING
-    COUNT(*) > 1;
-```
+
+#### No nulls found
 
 The first step in manipulation is to add various time-based columns. 
 The addition of secplayed and minplayed is for easier readability than milliseconds.
@@ -140,7 +148,8 @@ I removed these records during my cleaning. Prior to deletion, a backup was expo
 
 #### Inconsistency in the style of column names needed changing before further analysis 
 
-#### Creating a new table 
+#### Creating a new table with adjusted column names 
+
 ```SQL
 
 CREATE TABLE karasdata.karasjams AS
@@ -166,7 +175,34 @@ DROP TABLE karasdata.jam;
 
 
 ---
-Exploration
+### Exploration
+
+#### Top 10 artists by playtime 
+
+```SQL
+SELECT 
+  artistname, 
+  SUM(minsplayed) AS minsplayedtotal
+FROM 
+  `bamboo-life-418613.karasdata.karasjams`
+GROUP BY 
+  artistname
+ORDER BY 
+  minsplayedtotal DESC
+LIMIT 10;
+```
+| artistname           | minsplayedtotal |
+|----------------------|----------------:|
+| Orion Sun            | 2,495.31        |
+| Remi Wolf            | 1,358.47        |
+| SZA                  | 1,355.90        |
+| Mt. Joy              | 1,285.24        |
+| Doja Cat             | 1,215.60        |
+| Shakey Graves        | 831.35          |
+| Tyler, The Creator   | 803.36          |
+| Billie Eilish        | 719.83          |
+| The Backseat Lovers  | 627.24          |
+| Still Woozy          | 499.46          |
 
 ```SQL
 SELECT 

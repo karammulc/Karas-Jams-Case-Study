@@ -45,6 +45,22 @@ WHERE endtime IS NULL
    OR msplayed IS NULL
    OR endTime IS NULL;
 ```
+#### Checking for duplicates
+```SQL
+SELECT
+    endtime,
+    artistName,
+    trackName,
+    COUNT(*) AS count
+FROM
+    `bamboo-life-418613.karasdata.jams`
+GROUP BY
+    endtime,
+    artistName,
+    trackName
+HAVING
+    COUNT(*) > 1;
+```
 
 The first step in manipulation is to add various time-based columns. 
 The addition of secplayed and minplayed is for easier readability than milliseconds.
@@ -124,8 +140,29 @@ I removed these records during my cleaning. Prior to deletion, a backup was expo
 
 #### Inconsistency in the style of column names needed changing before further analysis 
 
+#### Creating a new table 
+```SQL
 
+CREATE TABLE karasdata.karasjams AS
+SELECT
+    endTime AS endtime,
+    artistName AS artistname,
+    trackName AS trackName,
+    msPlayed AS msplayed,
+    secsplayed,
+    minsplayed,
+    day_of_week AS dayofweek,
+    time_of_day AS timeofday
+FROM
+    karasdata.jams
 
+```
+
+#### Dropping old table 
+
+```SQL
+DROP TABLE karasdata.jam;
+```
 
 
 ---

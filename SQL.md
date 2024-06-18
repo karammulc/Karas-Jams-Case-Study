@@ -152,11 +152,11 @@ I removed these records during my cleaning. Prior to deletion, a backup was expo
 
 ```SQL
 
-CREATE TABLE karasdata.karasjams AS
+CREATE TABLE karasdata.kjams AS
 SELECT
     endTime AS endtime,
     artistName AS artistname,
-    trackName AS trackName,
+    trackName AS trackname,
     msPlayed AS msplayed,
     secsplayed,
     minsplayed,
@@ -212,12 +212,50 @@ FROM (
   SELECT 
     SUM(minsplayed) / 60 AS Hours_Listening
   FROM 
-    karasdata.jams
+    karasdata.kjams
 ) AS Subquery;
 ```
 
 | Hours_Listening        | Days_Listening        |
 |------------------------|-----------------------|
 | 940.20535916666051     | 39.175223298610852    |
+
+
+#### Top 10 songs by listening time 
+``` SQL
+SELECT 
+  trackname, 
+  artistname,
+  SUM(minsplayed) AS totalplaytime
+FROM 
+  `karasdata.kjams`
+GROUP BY 
+  trackname,
+  artistname
+ORDER BY 
+  totalplaytime DESC
+LIMIT 
+  10;
+```
+
+---
+title: "Top 10 Tracks by Total Play Time"
+output: github_document
+---
+
+# Top 10 Tracks by Total Play Time
+
+| trackname                               | artistname            | totalplaytime |
+|-----------------------------------------|-----------------------|---------------|
+| concrete                                | Orion Sun             | 373.3475      |
+| dirty dancer                            | Orion Sun             | 371.3588      |
+| Bathroom Light                          | Mt. Joy               | 365.6171      |
+| Sweet Jane - Full Length Version; 2015 Remaster | The Velvet Underground | 307.2752      |
+| Shirt                                   | SZA                   | 290.8872      |
+| Space Jam - An Odyssey                  | Orion Sun             | 275.5432      |
+| Cinderella                              | Remi Wolf             | 257.8302      |
+| Maple Syrup                             | The Backseat Lovers   | 235.4541      |
+| Kill Bill                               | SZA                   | 232.2532      |
+| Clay Pigeons                            | Michael Cera          | 222.9267      |
 
 

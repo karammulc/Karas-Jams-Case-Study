@@ -258,4 +258,16 @@ output: github_document
 | Kill Bill                               | SZA                   | 232.2532      |
 | Clay Pigeons                            | Michael Cera          | 222.9267      |
 
+```SQL
+SELECT
+  MIN(playtime) AS datastartdate,
+  MAX(playtime) AS dataenddate,
+  TIMESTAMP_DIFF(MAX(playtime), MIN(playtime), DAY) AS days_difference,
+  TIMESTAMP_DIFF(MAX(playtime), MIN(playtime), MINUTE) AS minutes_difference
+FROM 
+  `karasdata.kjams`;
+```
 
+ datastartdate          | dataenddate            | days_difference | minutes_difference |
+|------------------------|------------------------|-----------------:|-------------------:|
+| 2023-05-31 20:28:00 UTC | 2024-06-01 23:57:00 UTC | 367             | 528,689            |

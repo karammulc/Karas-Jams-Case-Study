@@ -131,8 +131,8 @@ SET time_of_day = (
     WHEN EXTRACT(HOUR FROM TIMESTAMP(endtime)) BETWEEN 16 AND 21 THEN 'afternoon'
     ELSE 'night' 
   END
-)
-WHERE TRUE;
+);
+
 ```
 
 

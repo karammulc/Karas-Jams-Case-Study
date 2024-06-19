@@ -271,3 +271,51 @@ FROM
  datastartdate          | dataenddate            | days_difference | minutes_difference |
 |------------------------|------------------------|-----------------:|-------------------:|
 | 2023-05-31 20:28:00 UTC | 2024-06-01 23:57:00 UTC | 367             | 528,689            |
+
+Next, I was interested in finding what percent of total time (from start date to end date of data) was spent listening to music 
+To do this the following steps were taken 
+1) Find start time and end time of the dataset 
+2) Calculation of minutes between these two datetimes
+3) Use sum all records playtime to find the percent of step 2s total
+
+```SQL
+SELECT
+  MIN(playtime) AS datastartdate,
+  MAX(playtime) AS dataenddate,
+  TIMESTAMP_DIFF(MAX(playtime), MIN(playtime), DAY) AS days_difference,
+  TIMESTAMP_DIFF(MAX(playtime), MIN(playtime), MINUTE) AS minutes_difference
+FROM 
+  `karasdata.kjams`;
+```
+
+
+| datastartdate          | dataenddate            | days_difference | minutes_difference |
+|------------------------|------------------------|----------------:|-------------------:|
+| 2023-05-31 20:28:00 UTC | 2024-06-01 23:57:00 UTC | 367             | 528,689           |
+
+
+```SQL
+
+WITH time_period AS (
+  SELECT
+    MIN(endtime) AS datastartdate,
+    MAX(endtime) AS dataenddate,
+    TIMESTAMP_DIFF(MAX(endtime), MIN(endtime), MINUTE) AS total_minutes
+  FROM 
+    `karasdata.kjams`
+),
+listening_time AS (
+  SELECT
+    SUM(minsplayed) AS total_listening_minutes
+  FROM 
+    `karasdata.kjams`
+)
+SELECT
+  total_minutes,
+  total_listening_minutes,
+  (total_listening_minutes / total_minutes) * 100 AS percentage_listening_time
+FROM
+  time_period,
+  listening_time;
+```
+

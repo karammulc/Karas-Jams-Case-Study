@@ -3,7 +3,7 @@
 
 # StreamTunes-Case-Study
 Hello! This project is especially personal and meaningful to me. Throughout my life and it's complexities music has offered solice and opportunities for connection. 
-Instead of adressing a business problem; this project will be an exploration of my own spotify data and personal listening patterns. 
+Instead of addressing a business problem, this project will explore my Spotify data and personal listening patterns. 
 
 Objectives: 
 - Explore the patterns within my relationship to music

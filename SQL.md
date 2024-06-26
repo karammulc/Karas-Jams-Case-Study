@@ -366,9 +366,9 @@ ORDER BY a.artistName, song_time_percentage DESC;
 ```
 ---
 
-# I am now breaking these results into 3 different sheets, one for each artist
-## Before further analysis some manipulating will be done within sheets 
-#### This query used ms so within my google sheet I will be making a column converting ms to hours
+#### - I am now breaking these results into 3 different sheets, one for each artist
+#### - Before further analysis some manipulating will be done within sheets 
+#### - This query used ms so within my google sheet I will be making a column converting ms to hours
 
 ##1 hour = 3,600,000 milliseconds
 

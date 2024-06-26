@@ -329,7 +329,7 @@ This table shows the total listening minutes, total minutes, and the percentage 
 WITH top_artists AS (
   SELECT
     artistName,
-    SUM(msPlayed) AS total_artist_time
+    SUM(minsplayed) AS total_artist_time
   FROM `karasdata.kjams`
   GROUP BY artistName
   ORDER BY total_artist_time DESC
@@ -339,10 +339,10 @@ artist_song_time AS (
   SELECT
     artistName,
     trackName,
-    SUM(msPlayed) AS total_song_time
+    SUM(minsplayed) AS total_song_time
   FROM `karasdata.kjams`
-  WHERE artistName IN (SELECT artistName FROM top_artists)
-  GROUP BY artistName, trackName
+  WHERE artistname IN (SELECT artistName FROM top_artists)
+  GROUP BY artistname, trackName
 ),
 artist_total_time AS (
   SELECT
@@ -357,19 +357,14 @@ SELECT
   a.trackName,
   a.total_song_time,
   b.total_artist_time,
-  ROUND((a.total_song_time / b.total_artist_time) * 100, 2) AS song_time_percentage
+  ROUND((a.total_song_time / b.total_artist_time) * 100, 3) AS song_time_percentage
 FROM artist_song_time a
 JOIN artist_total_time b
 ON a.artistName = b.artistName
-WHERE ROUND((a.total_song_time / b.total_artist_time) * 100, 2) > 1
 ORDER BY a.artistName, song_time_percentage DESC;
 ```
 ---
 
 #### - I am now breaking these results into 3 different sheets, one for each artist
-#### - Before further analysis some manipulating will be done within sheets 
-#### - This query used ms so within my google sheet I will be making a column converting ms to hours
-
-##1 hour = 3,600,000 milliseconds
 
 

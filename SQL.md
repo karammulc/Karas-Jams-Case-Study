@@ -238,11 +238,6 @@ LIMIT
   10;
 ```
 
----
-title: "Top 10 Tracks by Total Play Time"
-output: github_document
----
-
 # Top 10 Tracks by Total Play Time
 
 | trackname                               | artistname            | totalplaytime |
@@ -268,9 +263,6 @@ FROM
   `karasdata.kjams`;
 ```
 
- datastartdate          | dataenddate            | days_difference | minutes_difference |
-|------------------------|------------------------|-----------------:|-------------------:|
-| 2023-05-31 20:28:00 UTC | 2024-06-01 23:57:00 UTC | 367             | 528,689            |
 
 Next, I was interested in finding what percent of total time (from start date to end date of data) was spent listening to music 
 To do this the following steps were taken 
@@ -293,29 +285,91 @@ FROM
 |------------------------|------------------------|----------------:|-------------------:|
 | 2023-05-31 20:28:00 UTC | 2024-06-01 23:57:00 UTC | 367             | 528,689           |
 
-
-```SQL
-
-WITH time_period AS (
+#### Cartesian Product / Cross Join must be used for this calculation
+``` SQL
+WITH time_frame AS (
   SELECT
-    MIN(endtime) AS datastartdate,
-    MAX(endtime) AS dataenddate,
     TIMESTAMP_DIFF(MAX(endtime), MIN(endtime), MINUTE) AS total_minutes
   FROM 
-    `karasdata.kjams`
+    karasdata.kjams
 ),
 listening_time AS (
   SELECT
-    SUM(minsplayed) AS total_listening_minutes
+    SUM(msplayed) / 60000 AS total_listening_minutes
   FROM 
-    `karasdata.kjams`
+    karasdata.kjams
 )
 SELECT
-  total_minutes,
   total_listening_minutes,
-  (total_listening_minutes / total_minutes) * 100 AS percentage_listening_time
+  total_minutes,
+  (total_listening_minutes / total_minutes) * 100 AS percent_listening_time
 FROM
-  time_period,
-  listening_time;
+  time_frame, listening_time;
+
 ```
+
+
+This table shows the total listening minutes, total minutes, and the percentage of time spent listening to music based on the analysis of the dataset.
+
+| total_listening_minutes | total_minutes | percent_listening_time |
+|-------------------------|---------------|------------------------|
+| 56412.32155             | 528689        | 10.670227969562445     |
+
+
+- **Total Listening Minutes**: The total amount of time spent listening to music in minutes.
+- **Total Minutes**: The total duration from the start to the end of the dataset in minutes.
+- **Percent Listening Time**: The percentage of total time that was spent listening to music.
+
+
+
+#### The CTES, joins and calculation get the percentage of each song's listening time relative to the total listening time for each artist, excluding percentage values lower than 1%.
+#### There were too many results with an original limit of 10 artists; so I reduced the analysis to my top 3 artists (Orion Sun, Remi Wolf, SZA).
+#### Results were exported to a google sheet for further analysis 
+```SQL
+WITH top_artists AS (
+  SELECT
+    artistName,
+    SUM(msPlayed) AS total_artist_time
+  FROM `karasdata.kjams`
+  GROUP BY artistName
+  ORDER BY total_artist_time DESC
+  LIMIT 3
+),
+artist_song_time AS (
+  SELECT
+    artistName,
+    trackName,
+    SUM(msPlayed) AS total_song_time
+  FROM `karasdata.kjams`
+  WHERE artistName IN (SELECT artistName FROM top_artists)
+  GROUP BY artistName, trackName
+),
+artist_total_time AS (
+  SELECT
+    artistName,
+    SUM(total_song_time) AS total_artist_time
+  FROM artist_song_time
+  GROUP BY artistName
+)
+
+SELECT
+  a.artistName,
+  a.trackName,
+  a.total_song_time,
+  b.total_artist_time,
+  ROUND((a.total_song_time / b.total_artist_time) * 100, 2) AS song_time_percentage
+FROM artist_song_time a
+JOIN artist_total_time b
+ON a.artistName = b.artistName
+WHERE ROUND((a.total_song_time / b.total_artist_time) * 100, 2) > 1
+ORDER BY a.artistName, song_time_percentage DESC;
+```
+---
+
+# I am now breaking these results into 3 different sheets, one for each artist
+## Before further analysis some manipulating will be done within sheets 
+#### This query used ms so within my google sheet I will be making a column converting ms to hours
+
+##1 hour = 3,600,000 milliseconds
+
 

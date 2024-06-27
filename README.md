@@ -25,4 +25,10 @@ Lets go!
 - [Visualizations](#visualizations)
 
 
+![*Song Time Percentage For Orion Sun Tracks*](https://github.com/karammulc/KarasJams/blob/main/Images/Song%20Time%20Percentage%20For%20Orion%20Sun%20Tracks.png)
 
+![*Song Time Percentage For Remi Wolf Tracks*](https://github.com/karammulc/Karas-Jams/blob/main/Images/Song%20Time%20Percentage%20For%20Remi%20Wolf%20Tracks.png)
+
+![*Song Time Percentage For SZA Tracks*](https://github.com/karammulc/Karas-Jams/blob/main/Images/Song%20Time%20Percentage%20For%20SZA%20Tracks.png)
+
+![*Listening Time Series.png*](https://github.com/karammulc/Karas-Jams/blob/main/Images/Listening%20Time%20Series.png)

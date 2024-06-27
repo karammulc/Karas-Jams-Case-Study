@@ -2,13 +2,13 @@
 ## Introduction
 
 # StreamTunes-Case-Study
-Hello! This project is especially personal and meaningful to me. Throughout my life and it's complexities music has offered solice and opportunities for connection. 
+Hello! This project is especially personal and meaningful to me. Throughout my life and its complexities, music has offered solace and opportunities for connection. 
 Instead of addressing a business problem, this project will explore my Spotify data and personal listening patterns. 
 
 Objectives: 
 - Explore the patterns within my relationship to music
-- Attempt new techniques
-- offer the opportunity for you to get to know me better
+- Play with new tool
+- Offer the opportunity for you to get to know me better
 
 Lets go!
 

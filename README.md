@@ -7,7 +7,7 @@ Instead of addressing a business problem, this project will explore my Spotify d
 
 Objectives: 
 - Explore the patterns within my relationship to music
-- Play with new tool
+- Play with new tools
 - Offer the opportunity for you to get to know me better
 
 Lets go!

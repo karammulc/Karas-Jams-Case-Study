@@ -70,10 +70,10 @@ WHERE endtime IS NULL
 
 #### No nulls found
 
-The first step in manipulation is to add various time-based columns. 
-The addition of secplayed and minplayed is for easier readability than milliseconds.
-Time of day and day of week are to be added for a more extensive temporal analysis. 
-In updating all rows for new columns; a WHERE TRUE statement is used as bigquery requires WHERE statements while using UPDATE.
+- The first step in manipulation is to add various time-based columns. 
+- The addition of secplayed and minplayed is for easier readability than milliseconds.
+- Time of day and day of week are to be added for a more extensive temporal analysis. 
+- In updating all rows for new columns; a WHERE TRUE statement is used as bigquery requires WHERE statements while using UPDATE.
 
 
 #### Adding secplayed column 
@@ -264,7 +264,9 @@ FROM
 ```
 
 
-Next, I was interested in finding what percent of total time (from start date to end date of data) was spent listening to music 
+
+### Exploring what % of my time was spent listening to music.
+
 To do this the following steps were taken 
 1) Find start time and end time of the dataset 
 2) Calculation of minutes between these two datetimes
@@ -285,7 +287,7 @@ FROM
 |------------------------|------------------------|----------------:|-------------------:|
 | 2023-05-31 20:28:00 UTC | 2024-06-01 23:57:00 UTC | 367             | 528,689           |
 
-#### Cartesian Product / Cross Join must be used for this calculation
+#### Cartesian Product / Cross Join had to be used for this calculation
 ``` SQL
 WITH time_frame AS (
   SELECT
@@ -321,7 +323,14 @@ This table shows the total listening minutes, total minutes, and the percentage 
 - **Percent Listening Time**: The percentage of total time that was spent listening to music.
 
 
+____
 
+
+As I moved into the next phase of my analysis, I became curious about the specific listening patterns of each of my top artists.
+I wondered how each song in their discography contributed to my total listening per artist. 
+
+
+what percent of total time (from start date to end date of data) was spent listening to music 
 #### The CTES, joins and calculation get the percentage of each song's listening time relative to the total listening time for each artist, excluding percentage values lower than 1%.
 #### There were too many results with an original limit of 10 artists; so I reduced the analysis to my top 3 artists (Orion Sun, Remi Wolf, SZA).
 #### Results were exported to a google sheet for further analysis 
@@ -365,6 +374,13 @@ ORDER BY a.artistName, song_time_percentage DESC;
 ```
 ---
 
-#### - I am now breaking these results into 3 different sheets, one for each artist
+The results of this query were exported to google sheets for further manipulation, exploration and visualizations. 
+
+
+
+#### - I am now breaking these results into 4 different sheets, one for a compilation of the top 3 artists data together and one for each artist with their data separated. 
+
+![*sheets preview.png*](https://github.com/karammulc/Karas-Jams/blob/main/Images/SheetsPreview.png)
+
 
 

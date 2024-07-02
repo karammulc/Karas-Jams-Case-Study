@@ -1,5 +1,6 @@
-# Karas-Jams
-## Introduction
+# Kara's-Jams
+
+# Introduction
 
 # StreamTunes-Case-Study
 Hello! This project is especially personal and meaningful to me. Throughout my life and its complexities, music has offered solace and opportunities for connection. 

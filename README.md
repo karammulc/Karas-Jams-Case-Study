@@ -50,14 +50,16 @@ ______________________________________________________
 10. Still Woozy
 _____________________________________________________
 ### Top 10 songs overall
-1.
-2.
-3
-
-
-
-
-
+1. Concrete - Orion Sun
+2. Dirty dancer - Orion Sun
+3. Bathroom Light - Mnt. Joy
+4. Sweet Jane - The Velvet Underground
+5. Shirt - SZA
+6. Space Jam - An Odyssey	- Orion Sun
+7. Cinderella - Remi Wolf
+8. Maple Syrup - The BackSeat Lovers
+9. Kill Bill - SZA
+10. Clay Pigeons- Michael Cera	
 _____________________________________________________
 ### Top 5 songs for my top 3 artists 
 

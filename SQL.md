@@ -382,5 +382,30 @@ The results of this query were exported to google sheets for further manipulatio
 
 ![*sheets preview.png*](https://github.com/karammulc/Karas-Jams/blob/main/Images/SheetsPreview.png)
 
+Using visualization tools within sheets I then created donut charts for each artists discography, this can be seen within the README. 
+
+
+Moving into Looker Studio was a new experience for me! So, I began playing around with different options.
+The following was created 
+
+- A total song count (calculated by sum(recordcount)
+- 
+
+When creating the barchart for listening duration by day of week; the options were to order by Dimension (dayofweek) - alphabetically, or Metric (msplayed)
+However neither of these options ordered the X axis as Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+
+To remedy this I added a new calculated field using this code:
+
+CASE
+  WHEN dayofweek = 'Monday' THEN 1
+  WHEN dayofweek = 'Tuesday' THEN 2
+  WHEN dayofweek = 'Wednesday' THEN 3
+  WHEN dayofweek = 'Thursday' THEN 4
+  WHEN dayofweek = 'Friday' THEN 5
+  WHEN dayofweek = 'Saturday' THEN 6
+  WHEN dayofweek = 'Sunday' THEN 7
+END
+
+this offered the opportunity to order the X axis as I wish.
 
 

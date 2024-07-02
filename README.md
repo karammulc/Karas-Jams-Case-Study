@@ -41,11 +41,11 @@ Lets go!
 
 # Key Findings
 ______________________________________________________
-### Total Counts of songs listened to: *37,527*
+#### Total Counts of songs listened to: *37,527*
 ______________________________________________________
-### Percent of Total Time listing to Music: 	*10.67%*
+#### Percent of Total Time listing to Music: 	*10.67%*
 ______________________________________________________
-### Hours Listening: 940 hrs    Days Listening: *39* 
+#### Hours Listening: 940 hrs    Days Listening: *39* 
 ______________________________________________________
 
 ### Top 10 artists 

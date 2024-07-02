@@ -30,9 +30,10 @@ Lets go!
 
 # Key Findings
 
-#### Total Counts of songs listened to: 37,527
+### Total Counts of songs listened to: 37,527
 
-#### Percent of Total Time listing to Music: 
+### Percent of Total Time listing to Music: 
+______________________________________________________
 
 ### Top 10 artists 
 1. Orion Sun
@@ -46,6 +47,7 @@ Lets go!
 9. The Backseat Lovers
 10. Still Woozy
 
+_____________________________________________________
 ### Top 5 songs for my top 3 artists 
 
 #### Orion Sun
@@ -56,7 +58,7 @@ Lets go!
 5. Lightning - 4.5%
 
 ![*Song Time Percentage For Orion Sun Tracks*](https://github.com/karammulc/Karas-Jams/blob/main/Images/Song%20Time%20Percentage%20For%20Orion%20Sun%20Tracks.png)
-
+______________________________________________________
 #### Remi Wolf 
 1. Cinderella - 19%
 2. Toro - 8.4%
@@ -65,7 +67,7 @@ Lets go!
 5. Photo Id - 7.0 %
 
 ![*Song Time Percentage For Remi Wolf Tracks*](https://github.com/karammulc/Karas-Jams/blob/main/Images/Song%20Time%20Percentage%20For%20Remi%20Wolf%20Tracks.png)
-
+______________________________________________________
 #### SZA
 1. Shirt - 21.5%
 2. Kill Bill - 17.1%
@@ -74,4 +76,4 @@ Lets go!
 5. Saturn - 4.4%
 
 ![*Song Time Percentage For SZA Tracks*](https://github.com/karammulc/Karas-Jams/blob/main/Images/Song%20Time%20Percentage%20For%20SZA%20Tracks.png)
-
+______________________________________________________

@@ -1,5 +1,13 @@
 # Kara's-Jams
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Documentation](#documentation)
+- [Challenges](#challenges)
+- [Key Findings](#key-findings)
+- [Dashboard](#Dashboard)
+
+  
 # Introduction
 
 ###  StreamTunes-Case-Study
@@ -27,17 +35,9 @@ Instead of addressing a business problem, this project will explore my Spotify d
   
 Lets go!
 
+# Documentation
+[Cleaning,Manipulation & Visualization Markdown](https://github.com/karammulc/Karas-Jams/blob/main/README.md))
 
-
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Documentation](#documentation)
-- [Challenges](#challenges)
-- [Key Findings](#key-findings)
-- [Recommendations](#recommendations)
-- [Tables](#tables)
-- [Visualizations](#visualizations)
 
 # Key Findings
 ______________________________________________________
@@ -110,3 +110,4 @@ ______________________________________________________
 ______________________________________________________
 
 
+# Dashboard

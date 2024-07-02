@@ -6,12 +6,6 @@
 Hello! This project is especially personal and meaningful to me. Throughout my life, music has offered solace, fun opportunities for connection. 
 Instead of addressing a business problem, this project will explore my Spotify data and personal listening patterns. 
 
-#### Objectives: 
-- Explore the patterns within my relationship to music
-- Play with new tools
-- Offer the opportunity for you to get to know me better
-
-Lets go!
 
 #### About the dataset: 
 - The data used for this project is my own historical spotify data 
@@ -24,6 +18,17 @@ Lets go!
 - Looker Studio
 - Google Sheets
 - Python
+
+
+### Objectives: 
+- Explore the patterns within my relationship to music
+- Play with new tools
+- Offer the opportunity for you to get to know me better
+  
+Lets go!
+
+
+
 
 ## Table of Contents
 - [Introduction](#introduction)

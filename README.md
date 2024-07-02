@@ -29,9 +29,9 @@ Lets go!
 - [Visualizations](#visualizations)
 
 # Key Findings
-
+______________________________________________________
 ### Total Counts of songs listened to: 37,527
-
+______________________________________________________
 ### Percent of Total Time listing to Music: 
 ______________________________________________________
 

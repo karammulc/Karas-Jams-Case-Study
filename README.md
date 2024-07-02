@@ -106,8 +106,20 @@ Morning: 16%
 Afternoon: 50.5%
 Night: 33.6%
 ______________________________________________________
-![*Record Count by Time of Day*](https://github.com/karammulc/Karas-Jams/blob/main/Images/Record%20Count%20by%20Time%20of%20Day.png)
+### Listening by Day of Week
+
+Monday
+
+Tuesday
+
+Wednesday
+
+Thursday 
+
+Friday
+
+Saturday
+
+Sunday
 ______________________________________________________
-
-
 # Dashboard

@@ -30,11 +30,11 @@ Lets go!
 
 # Key Findings
 ______________________________________________________
-### Total Counts of songs listened to: 37,527
+### Total Counts of songs listened to: *37,527*
 ______________________________________________________
-### Percent of Total Time listing to Music: 	10.67%
+### Percent of Total Time listing to Music: 	*10.67%*
 ______________________________________________________
-### Hours Listening: 940 hrs    Days Listening: 39 
+### Hours Listening: 940 hrs    Days Listening: *39* 
 ______________________________________________________
 
 ### Top 10 artists 
@@ -79,3 +79,12 @@ ______________________________________________________
 ______________________________________________________
 ![*Song Time Percentage For SZA Tracks*](https://github.com/karammulc/Karas-Jams/blob/main/Images/Song%20Time%20Percentage%20For%20SZA%20Tracks.png)
 ______________________________________________________
+### Listening by Time of Day
+Morning: 16%
+Afternoon: 50.5%
+Night: 33.6%
+______________________________________________________
+![*Record Count by Time of Day*](https://github.com/karammulc/Karas-Jams/blob/main/Images/Record%20Count%20by%20Time%20of%20Day.png)
+______________________________________________________
+
+

@@ -395,7 +395,7 @@ When creating the barchart for listening duration by day of week; the options we
 However neither of these options ordered the X axis as Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
 
 To remedy this I added a new calculated field using this code:
-
+```
 CASE
   WHEN dayofweek = 'Monday' THEN 1
   WHEN dayofweek = 'Tuesday' THEN 2
@@ -405,7 +405,16 @@ CASE
   WHEN dayofweek = 'Saturday' THEN 6
   WHEN dayofweek = 'Sunday' THEN 7
 END
+```
 
-this offered the opportunity to order the X axis as I wish.
+This offered the opportunity to order the X axis as I wish.
 
+It bothered me that for the donut chart representing listening by time of day , morning,afternoon and night weren't capitalized so I added one more calculated field.
 
+```
+CASE
+  WHEN timeofday = 'morning' THEN 'Morning'
+  WHEN timeofday = 'afternoon' THEN 'Afternoon'
+  WHEN timeofday = 'night' THEN 'Night'
+END
+```

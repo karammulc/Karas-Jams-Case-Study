@@ -13,7 +13,7 @@ Instead of addressing a business problem, this project will explore my Spotify d
 
 Lets go!
 
-#### About the dataset 
+#### About the dataset: 
 - The data used for this project is my own historical spotify data 
 - Account Data for any spotify user is available within account settings
 - The historical data contains just over a year of data between 5/31/23 to 6/01/24

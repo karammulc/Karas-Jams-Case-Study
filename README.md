@@ -5,7 +5,7 @@
 Hello! This project is especially personal and meaningful to me. Throughout my life and its complexities, music has offered solace and opportunities for connection. 
 Instead of addressing a business problem, this project will explore my Spotify data and personal listening patterns. 
 
-Objectives: 
+#### Objectives: 
 - Explore the patterns within my relationship to music
 - Play with new tools
 - Offer the opportunity for you to get to know me better
@@ -13,7 +13,7 @@ Objectives:
 Lets go!
 
 
-#### Tools Used: 
+## Tools Used: 
 - BigQuery (SQL)
 - Looker Studio
 - Google Sheets
@@ -28,13 +28,13 @@ Lets go!
 - [Tables](#tables)
 - [Visualizations](#visualizations)
 
-#Key Findings
+# Key Findings
 
-Total Counts of songs listened to: 37,527
+#### Total Counts of songs listened to: 37,527
 
-Percent of Total Time listing to Music: 
+#### Percent of Total Time listing to Music: 
 
-Top 10 artists 
+### Top 10 artists 
 1. Orion Sun
 2. Remi Wolf
 3. SZA
@@ -46,9 +46,9 @@ Top 10 artists
 9. The Backseat Lovers
 10. Still Woozy
 
-Top 5 songs for my top 3 artists 
+### Top 5 songs for my top 3 artists 
 
-Orion Sun
+#### Orion Sun
 1. Concrete - 15%
 2. Dirty Dancer - 14.9%
 3. Space Jam an Odyssey - 11%
@@ -57,7 +57,7 @@ Orion Sun
 
 ![*Song Time Percentage For Orion Sun Tracks*](https://github.com/karammulc/Karas-Jams/blob/main/Images/Song%20Time%20Percentage%20For%20Orion%20Sun%20Tracks.png)
 
-Remi Wolf 
+#### Remi Wolf 
 1. Cinderella - 19%
 2. Toro - 8.4%
 3. Shawty - 8.1%
@@ -66,7 +66,7 @@ Remi Wolf
 
 ![*Song Time Percentage For Remi Wolf Tracks*](https://github.com/karammulc/Karas-Jams/blob/main/Images/Song%20Time%20Percentage%20For%20Remi%20Wolf%20Tracks.png)
 
-SZA
+#### SZA
 1. Shirt - 21.5%
 2. Kill Bill - 17.1%
 3. Normal Girl - 11.9%

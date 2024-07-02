@@ -56,7 +56,7 @@ _____________________________________________________
 3. Space Jam an Odyssey - 11%
 4. Antidote - 5.6%
 5. Lightning - 4.5%
-
+______________________________________________________
 ![*Song Time Percentage For Orion Sun Tracks*](https://github.com/karammulc/Karas-Jams/blob/main/Images/Song%20Time%20Percentage%20For%20Orion%20Sun%20Tracks.png)
 ______________________________________________________
 #### Remi Wolf 
@@ -65,7 +65,7 @@ ______________________________________________________
 3. Shawty - 8.1%
 4. Sugar - 7.4%
 5. Photo Id - 7.0 %
-
+______________________________________________________
 ![*Song Time Percentage For Remi Wolf Tracks*](https://github.com/karammulc/Karas-Jams/blob/main/Images/Song%20Time%20Percentage%20For%20Remi%20Wolf%20Tracks.png)
 ______________________________________________________
 #### SZA
@@ -74,6 +74,6 @@ ______________________________________________________
 3. Normal Girl - 11.9%
 4. Saturn Instrumental - 5.6%
 5. Saturn - 4.4%
-
+______________________________________________________
 ![*Song Time Percentage For SZA Tracks*](https://github.com/karammulc/Karas-Jams/blob/main/Images/Song%20Time%20Percentage%20For%20SZA%20Tracks.png)
 ______________________________________________________

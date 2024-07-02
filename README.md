@@ -2,8 +2,8 @@
 
 # Introduction
 
-# StreamTunes-Case-Study
-Hello! This project is especially personal and meaningful to me. Throughout my life and its complexities, music has offered solace and opportunities for connection. 
+###  StreamTunes-Case-Study
+Hello! This project is especially personal and meaningful to me. Throughout my life, music has offered solace, fun opportunities for connection. 
 Instead of addressing a business problem, this project will explore my Spotify data and personal listening patterns. 
 
 #### Objectives: 
@@ -13,6 +13,11 @@ Instead of addressing a business problem, this project will explore my Spotify d
 
 Lets go!
 
+#### About the dataset 
+- The data used for this project is my own historical spotify data 
+- Account Data for any spotify user is available within account settings
+- The historical data contains just over a year of data between 5/31/23 to 6/01/24
+- Before cleaning, this dataset held 38,489 observations
 
 ## Tools Used: 
 - BigQuery (SQL)

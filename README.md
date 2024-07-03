@@ -39,7 +39,7 @@ Let's go!
 [Cleaning,Manipulation & Visualization Markdown](https://github.com/karammulc/Karas-Jams/blob/main/README.md)
 
 # Dashboard 
-![*Kara's Jams Dashboard page 1*](https://github.com/karammulc/Karas-Jams/blob/main/Images/Dashboard%20PG%201.jpg) 
+![*Kara's Jams Dashboard page 1*](https://github.com/karammulc/Karas-Jams/blob/main/Images/Dashboard%20PG%201.png) 
 ![*Kara's Jams Dashboard page 2*](https://github.com/karammulc/Karas-Jams/blob/main/Images/Dashboard%20PG%202.jpg)
 
 # Key Findings

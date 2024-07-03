@@ -11,7 +11,7 @@
 # Introduction
 
 ###  StreamTunes-Case-Study
-Hello! This project is especially personal and meaningful to me. Throughout my life, music has offered solace, fun opportunities for connection. 
+Hello! This project is especially personal and meaningful to me. Throughout my life, music has offered solace and fun opportunities for connection. 
 Instead of addressing a business problem, this project will explore my Spotify data and personal listening patterns. 
 
 
@@ -33,11 +33,12 @@ Instead of addressing a business problem, this project will explore my Spotify d
 - Play with new tools
 - Offer the opportunity for you to get to know me better
   
-Lets go!
+Let's go!
 
 # Documentation
 [Cleaning,Manipulation & Visualization Markdown](https://github.com/karammulc/Karas-Jams/blob/main/README.md)
 
+# Dashboard 
 
 # Key Findings
 ______________________________________________________
@@ -108,18 +109,18 @@ Night: 33.6%
 ______________________________________________________
 ### Listening by Day of Week
 
-Monday
+Monday - 11.7%
 
-Tuesday
+Tuesday - 15.2%
 
-Wednesday
+Wednesday - 12.6%
 
-Thursday 
+Thursday - 15.1%
 
-Friday
+Friday - 17.2%
 
-Saturday
+Saturday - 14.6%
 
-Sunday
+Sunday - 13.6%
 ______________________________________________________
 # Dashboard

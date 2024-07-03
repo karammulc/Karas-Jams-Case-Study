@@ -39,6 +39,7 @@ Let's go!
 [Cleaning,Manipulation & Visualization Markdown](https://github.com/karammulc/Karas-Jams/blob/main/README.md)
 
 # Dashboard 
+![*Kara's Jams Dashboard*](https://github.com/karammulc/Karas-Jams/blob/main/Images/Kara's%20Jams%20Dashboard.pdf) 
 
 # Key Findings
 ______________________________________________________

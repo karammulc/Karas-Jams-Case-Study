@@ -48,7 +48,7 @@ Let's go!
 ______________________________________________________
 #### Total Counts of songs listened to: *37,527*
 ______________________________________________________
-#### Percent of Total Time listing to Music: 	*10.67%*
+#### Percent of Total Time Listening to Music: 	*10.67%*
 ______________________________________________________
 #### Hours Listening: 940  /  Days Listening: *39* 
 ______________________________________________________

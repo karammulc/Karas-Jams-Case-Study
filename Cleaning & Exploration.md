@@ -389,7 +389,7 @@ Moving into Looker Studio was a new experience for me! So, I began playing aroun
 The following was created 
 
 - A total song count (calculated by sum(recordcount)
-- 
+
 
 When creating the barchart for listening duration by day of week; the options were to order by Dimension (dayofweek) - alphabetically, or Metric (msplayed)
 However neither of these options ordered the X axis as Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
@@ -415,6 +415,7 @@ It bothered me that for the donut chart representing listening by time of day , 
 CASE
   WHEN timeofday = 'morning' THEN 'Morning'
   WHEN timeofday = 'afternoon' THEN 'Afternoon'
-  WHEN timeofday = 'night' THEN 'Night'
-END
+  WHEN timeofday = 'night' THEN 'Night'END
+
 ```
+I then created a dashboard in Tableau that can be found [here](https://public.tableau.com/app/profile/karam/viz/KarasJams/Dashboard1)

@@ -36,7 +36,7 @@ Instead of addressing a business problem, this project will explore my Spotify d
 Let's go!
 
 # Documentation
-[Cleaning,Manipulation & Visualization Markdown](https://github.com/karammulc/Karas-Jams/blob/main/README.md](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Cleaning%20%26%20Exploration.md)
+[Cleaning,Manipulation & Visualization Markdown](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Cleaning%20%26%20Exploration.md)
 
 
 Dashboard Version 1

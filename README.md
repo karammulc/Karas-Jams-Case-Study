@@ -42,6 +42,11 @@ Let's go!
 Dashboard Version 1
 ![*Dashboard Version 1*](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Version%202.png) 
 
+Dashboard Version 2
+![*Dashboard Version 2 p1*](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Version%201%20P1.jpg) 
+![*Dashboard Version 2 p1*](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Version%201%20P1.jpg) 
+![*Dashboard Version 2 p1*](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Version%201%20P3.jpg) 
+
 
 # [Dashboard](https://lookerstudio.google.com/reporting/58e52cd7-9904-4572-8a64-5e2eae0c48a5)
 

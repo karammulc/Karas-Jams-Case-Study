@@ -3,7 +3,7 @@ The data used for this project was requested directly from Spotify within person
 Four separate json files were received but were combined prior to upload by utilizing Python. 
 This process resulted in one large CSV. 
 
-I am new to Python, so Claude AI was leveraged for assistance in this process.
+I am new to Python, so Claude was leveraged for assistance in this process.
 
 ```Python
 import json

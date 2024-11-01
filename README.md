@@ -1,4 +1,4 @@
-# Kara's-Jams
+
 ![*Logo*](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Karas%20Jam%20Logo.png) 
 
 

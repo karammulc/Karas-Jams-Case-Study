@@ -38,11 +38,20 @@ Let's go!
 # Documentation
 [Cleaning,Manipulation & Visualization Markdown](https://github.com/karammulc/Karas-Jams/blob/main/README.md](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Cleaning%20%26%20Exploration.md)
 
+
+Dashboard Version 1
+![*Dashboard Version 1*](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Version%202.png) 
+
+
 # [Dashboard](https://lookerstudio.google.com/reporting/58e52cd7-9904-4572-8a64-5e2eae0c48a5)
 
+Initial Dashboard Exploration
 
 ![*Kara's Jams Dashboard page 1*](https://github.com/karammulc/Karas-Jams/blob/main/Images/Dashboard%20PG%201.png) 
 ![*Kara's Jams Dashboard page 2*](https://github.com/karammulc/Karas-Jams/blob/main/Images/Dashboard%20PG%202.jpg)
+
+Second Iteration
+
 
 # Key Findings
 ______________________________________________________

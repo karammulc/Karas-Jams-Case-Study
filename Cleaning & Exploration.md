@@ -3,7 +3,6 @@ The data used for this project was requested directly from Spotify within person
 Four separate json files were received but were combined prior to upload by utilizing Python. 
 This process resulted in one large CSV. 
 
-I am new to Python, so Claude was leveraged for assistance in this process.
 
 ```Python
 import json
@@ -418,4 +417,4 @@ CASE
   WHEN timeofday = 'night' THEN 'Night'END
 
 ```
-I then created a dashboard in Tableau that can be found [here](https://public.tableau.com/app/profile/karam/viz/KarasJams/Dashboard1)
+

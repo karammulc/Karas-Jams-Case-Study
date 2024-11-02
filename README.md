@@ -1,7 +1,7 @@
 
  
 <img src="https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Karas%20Jam%20Logo.png" width="400"/>
-# StreamTunes Case Study
+
 
 ## Table of Contents
 - [Introduction](#introduction)

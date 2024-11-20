@@ -1,6 +1,6 @@
 
  
-# 🎵 Personal Spotify Data Analysis
+# Personal Spotify Data Analysis
 
 <img src="https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Karas%20Jam%20Logo.png" alt="Kara's Jams Logo" width="400"/>
 

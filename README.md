@@ -73,7 +73,8 @@ Listening Patterns:
 ![Dashboard Version 1](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Dashboards/Version%201%20P2.jpg)
 ![Dashboard Version 1](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Dashboards/Version%201%20P3.jpg)
 
-
+### Version 2
+![Dashboard Version 1](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Dashboards/Version%202.png0
 
 ### Final Dashboard
 ![Kara's Jams Dashboard page 1](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Dashboards/KarasJams-Final-1.png)

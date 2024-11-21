@@ -5,7 +5,7 @@
 <img src="https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Karas%20Jam%20Logo.png" alt="Kara's Jams Logo" width="400"/>
 
 ## Project Overview
-This project analyzes my personal Spotify listening data spanning from May 2023 to June 2024. Through Python data consolidation, SQL transformations, and Looker Studio visualizations, I've created a comprehensive analysis of my music listening patterns, artist preferences, and temporal trends.
+This project analyzes my personal Spotify listening data from May 2023 to June 2024. Through Python data consolidation, SQL transformations, and Looker Studio visualizations, I've created a comprehensive analysis of my music listening patterns, artist preferences, and temporal trends.
 
 ## Tools Used
 - Python: Data consolidation
@@ -42,7 +42,7 @@ Enhanced the data structure with additional calculated fields:
 
 ### Dashboard
 ![Kara's Jams Dashboard page 1](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Final%20Dash%20P1.png)
-![Kara's Jams Dashboard page 2](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Final_Dash%20P2.png)
+![Kara's Jams Dashboard page 2](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Final%20Dash%20P2.png)
 
 ## Key Findings
 Overall Statistics:

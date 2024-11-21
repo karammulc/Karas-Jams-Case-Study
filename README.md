@@ -11,6 +11,9 @@ This project analyzes my personal Spotify listening data from May 2023 to June 2
 - Looker Studio: Visualization
 - Google Sheets: Additional analysis
 
+#### Documentation
+📝 [Cleaning & Exploration](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Cleaning%20%26%20Exploration.md)
+
 ## Data Source
 The data used for this project is my own historical Spotify data, obtained directly from Spotify account settings. The dataset contains just over a year of listening history between 5/31/23 to 6/01/24, with 38,489 observations before cleaning.
 
@@ -19,8 +22,6 @@ The data used for this project is my own historical Spotify data, obtained direc
 ## Data Processing Challenges and Solutions
 The initial dataset presented several challenges requiring careful consideration. Working with multiple JSON files required a systematic approach to consolidation and cleaning. Using Python, I merged four separate JSON files into a single comprehensive dataset.
 
-#### Documentation
-📝 [Cleaning & Exploration](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Cleaning%20%26%20Exploration.md)
 
 Time based analysis required careful handling of timestamps and creation of additional temporal categorizations. I implemented specific time of day classifications (Morning/Afternoon/Night) and extracted day of week information to enable deeper temporal analysis.
 

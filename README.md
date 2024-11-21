@@ -39,8 +39,8 @@ Enhanced the data structure with additional calculated fields:
 - Listening duration calculations
 
 ### [Dashboard](https://public.tableau.com/app/profile/karam/viz/KarasJams/Dashboard1)
-![Kara's Jams Dashboard page 1](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Final%20Dash%20P1.png)
-![Kara's Jams Dashboard page 2](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Final%20Dash%20P2.png)
+![Kara's Jams Dashboard page 1](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Dashboards/KarasJams-Final-1.png)
+![Kara's Jams Dashboard page 2](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Dashboards/KaraJams-Final-2.png)
 
 ## Key Findings
 Overall Statistics:
@@ -67,13 +67,13 @@ Listening Patterns:
 ## Dashboard Evolution
 
 ### Version 1
-![Dashboard Version 1](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Version%202.png)
+![Dashboard Version 1](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Dashboards/Version%201%20P1.jpg)
+![Dashboard Version 1](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Dashboards/Version%201%20P2.jpg)
+![Dashboard Version 1](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Dashboards/Version%201%20P3.jpg)
 
-### Version 2
-![Dashboard Version 2 p1](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Version%201%20P1.jpg)
-![Dashboard Version 2 p2](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Version%201%20P1.jpg)
-![Dashboard Version 2 p3](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Version%201%20P3.jpg)
+
 
 ### Final Dashboard
-![Kara's Jams Dashboard page 1](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Final%20Dash%20P1.png)
-![Kara's Jams Dashboard page 2](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Final_Dash%20P2.png)
+![Kara's Jams Dashboard page 1](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Dashboards/KarasJams-Final-1.png)
+![Kara's Jams Dashboard page 2](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Dashboards/KaraJams-Final-2.png)
+

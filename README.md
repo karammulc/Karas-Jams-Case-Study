@@ -20,7 +20,7 @@ The data used for this project is my own historical Spotify data, obtained direc
 The initial dataset presented several challenges requiring careful consideration. Working with multiple JSON files required a systematic approach to consolidation and cleaning. Using Python, I merged four separate JSON files into a single comprehensive dataset.
 
 #### Documentation
-📝 [Detailed Cleaning & Exploration Process](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Cleaning%20%26%20Exploration.md)
+📝 [Cleaning & Exploration](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Cleaning%20%26%20Exploration.md)
 
 Time based analysis required careful handling of timestamps and creation of additional temporal categorizations. I implemented specific time of day classifications (Morning/Afternoon/Night) and extracted day of week information to enable deeper temporal analysis.
 

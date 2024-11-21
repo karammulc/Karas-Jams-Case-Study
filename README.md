@@ -1,5 +1,5 @@
 
-<img src="https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Small-White-Logo.png" alt="Kara's Jams Logo" width="300">
+<img src="https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Logos/Small-White-Logo.png" alt="Kara's Jams Logo" width="300">
 
 
 ## Project Overview

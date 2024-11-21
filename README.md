@@ -1,6 +1,7 @@
 
 <img src="https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Logos/Small-White-Logo.png" alt="Kara's Jams Logo" width="300">
-
+#### Documentation
+📝 [Detailed Cleaning & Exploration Process](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Cleaning%20%26%20Exploration.md)
 
 ## Project Overview
 This project analyzes my personal Spotify listening data from May 2023 to June 2024. Through Python data consolidation, SQL transformations, and Looker Studio visualizations, I've created a comprehensive analysis of my music listening patterns, artist preferences, and temporal trends.
@@ -61,8 +62,7 @@ Listening Patterns:
 - Night listening: 33.6%
 - Morning listening: 16%
 
-## Documentation
-📝 [Detailed Cleaning & Exploration Process](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Cleaning%20%26%20Exploration.md)
+
 
 ## Dashboard Evolution
 

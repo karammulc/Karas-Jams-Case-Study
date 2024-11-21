@@ -11,7 +11,7 @@ This project analyzes my personal Spotify listening data from May 2023 to June 2
 - Looker Studio: Visualization
 - Google Sheets: Additional analysis
 
-#### Documentation
+#### Documentation:
 📝 [Cleaning & Exploration](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Cleaning%20%26%20Exploration.md)
 
 ## Data Source

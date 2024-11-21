@@ -40,6 +40,10 @@ Enhanced the data structure with additional calculated fields:
 - Custom date range parameters
 - Listening duration calculations
 
+### Dashboard
+![Kara's Jams Dashboard page 1](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Final%20Dash%20P1.png)
+![Kara's Jams Dashboard page 2](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Final_Dash%20P2.png)
+
 ## Key Findings
 Overall Statistics:
 - Total listening time: 940 hours (39.18 days)
@@ -73,5 +77,5 @@ Listening Patterns:
 ![Dashboard Version 2 p3](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Version%201%20P3.jpg)
 
 ### Final Dashboard
-![Kara's Jams Dashboard page 1](https://github.com/karammulc/Karas-Jams/blob/main/Images/Dashboard%20PG%201.png)
-![Kara's Jams Dashboard page 2](https://github.com/karammulc/Karas-Jams/blob/main/Images/Dashboard%20PG%202.jpg)
+![Kara's Jams Dashboard page 1](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Final%20Dash%20P1.png)
+![Kara's Jams Dashboard page 2](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Final_Dash%20P2.png)

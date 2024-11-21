@@ -40,7 +40,7 @@ Enhanced the data structure with additional calculated fields:
 - Custom date range parameters
 - Listening duration calculations
 
-### Dashboard
+### [Dashboard](https://public.tableau.com/app/profile/karam/viz/KarasJams/Dashboard1)
 ![Kara's Jams Dashboard page 1](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Final%20Dash%20P1.png)
 ![Kara's Jams Dashboard page 2](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Final%20Dash%20P2.png)
 

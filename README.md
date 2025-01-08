@@ -66,18 +66,9 @@ Listening Patterns:
 - Morning listening: 16%
 
 
-
-## Dashboard Evolution
-
 ### Version 1
 ![Dashboard Version 1](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Dashboards/Version%201%20P1.jpg)
 ![Dashboard Version 1](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Dashboards/Version%201%20P2.jpg)
 ![Dashboard Version 1](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Dashboards/Version%201%20P3.jpg)
 
-### Version 2
-![Dashboard Version 1](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Dashboards/Version%202.png)
-
-### Final Dashboard
-![Kara's Jams Dashboard page 1](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Dashboards/KarasJams-Final-1.png)
-![Kara's Jams Dashboard page 2](https://github.com/karammulc/Karas-Jams-Case-Study/blob/main/Images/Dashboards/KaraJams-Final-2.png)
 
